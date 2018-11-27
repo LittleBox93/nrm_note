@@ -24,12 +24,12 @@ npm install nrm -g
         ```
 - Add one custom registry
     ```
-    nrm add <alias> <url>
+    nrm add <registry> <url>
     nrm add testnpm http://registry.npm.360.org
     ```
 - Change registry to registry
     ```
-    nrm use testnpm
+    nrm use <registry>
     ```
 - Show response time for specific or all registries
     ```
@@ -37,5 +37,5 @@ npm install nrm -g
     ```
 - Delete one custom registry
     ```
-    nrm del testnpm
+    nrm del <registry>
     ```
